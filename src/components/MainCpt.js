@@ -8,22 +8,22 @@ const MainCpt = () => {
           <h2 className="hide">메인 베너 Carry Merry</h2>
           <div className="container">
             <span className="star star1">
-              <img src="./img/2021_chiristmas2_bg_left.png" alt="별모양이미지1"/>
+              <img src={"."+process.env.PUBLIC_URL +"/img/2021_chiristmas2_bg_left.png"} alt="별모양이미지1"/>
             </span>
             <span className="star star2">
-              <img src="./img/2021_chiristmas2_bg_right.png" alt="별모양이미지2"/>
+              <img src={"."+process.env.PUBLIC_URL +"/img/2021_chiristmas2_bg_right.png"} alt="별모양이미지2"/>
             </span>
            <span className="img img1">
-             <img src="./img/2021_chiristmas2_slogan.png" alt="메인슬로건"/>
+             <img src={"."+process.env.PUBLIC_URL +"/img/2021_chiristmas2_slogan.png"} alt="메인슬로건"/>
            </span>
            <span className="img img2">
-             <img src="./img/2021_christmas2_drink.png" alt="메인이미지1"/>
+             <img src={"."+process.env.PUBLIC_URL +"/img/2021_christmas2_drink.png"} alt="메인이미지1"/>
            </span>
            <span className="img img3">
-             <img src="./img/2021_christmas2_drink2.png" alt="메인이미지2"/>
+             <img src={"."+process.env.PUBLIC_URL +"/img/2021_christmas2_drink2.png"} alt="메인이미지2"/>
            </span>
            <span className="img img4">
-             <img src="./img/2021_christmas2_drink3.png" alt="메인이미지3"/>
+             <img src={"."+process.env.PUBLIC_URL +"/img/2021_christmas2_drink3.png"} alt="메인이미지3"/>
            </span>
            <span className="img img5">
              <a href="#" className="detail_btn" title="자세히 보기">자세히 보기</a>
@@ -37,8 +37,8 @@ const MainCpt = () => {
                 <div className="notice_title">
                   <h2>
                     <span>
-                      <img src="./img/notice_ttl.png" alt="Notice Title"/>
-                      <img src="./img/icon_board_speaker.png" alt="Notice Title"/>
+                      <img src={"."+process.env.PUBLIC_URL +"/img/notice_ttl.png"} alt="Notice Title"/>
+                      <img src={"."+process.env.PUBLIC_URL +"/img/icon_board_speaker.png"} alt="Notice Title"/>
                     </span>
                   </h2>
                 </div>
@@ -52,7 +52,7 @@ const MainCpt = () => {
                   </ul>
                 </div>
                 <div className="notice_detail">
-                  <a href="#" title="더보기버튼"><img src="./img/btn_notice_plus.png" alt="더보기버튼"/></a>
+                  <a href="#" title="더보기버튼"><img src={"."+process.env.PUBLIC_URL +"/img/btn_notice_plus.png"} alt="더보기버튼"/></a>
                 </div>
               </div>
               <div className="prom_box">
@@ -67,11 +67,11 @@ const MainCpt = () => {
               <div className="slide_container">
                 <div className="slide_view">
                   <ul className="slide_wrap clearfix">
-                    <li className="slide slide3"><img src="./img/slide3.jpg" alt="메인슬라이드3"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
-                    <li className="slide slide1 on"><img src="./img/slide1.jpg" alt="메인슬라이드1"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
-                    <li className="slide slide2"><img src="./img/slide2.jpg" alt="메인슬라이드2"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
-                    <li className="slide slide3"><img src="./img/slide3.jpg" alt="메인슬라이드3"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
-                    <li className="slide slide1 on"><img src="./img/slide1.jpg" alt="메인슬라이드1"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
+                    <li className="slide slide3"><img src={"."+process.env.PUBLIC_URL +"/img/slide3.jpg"} alt="메인슬라이드3"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
+                    <li className="slide slide1 on"><img src={"."+process.env.PUBLIC_URL +"/img/slide1.jpg"} alt="메인슬라이드1"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
+                    <li className="slide slide2"><img src={"."+process.env.PUBLIC_URL +"/img/slide2.jpg"} alt="메인슬라이드2"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
+                    <li className="slide slide3"><img src={"."+process.env.PUBLIC_URL +"/img/slide3.jpg"} alt="메인슬라이드3"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
+                    <li className="slide slide1 on"><img src={"."+process.env.PUBLIC_URL +"/img/slide1.jpg"} alt="메인슬라이드1"/><span><a href="#" title="자세히 보기">자세히 보기</a></span></li>
                   </ul>
                 </div>
              {/*  <!-- Next & Prev Button --> */}
@@ -79,10 +79,10 @@ const MainCpt = () => {
                 <span className="prev_btn_box"><a href="#" className="prev_btn blind" title="Prev Button">Prev Button</a></span>
                 {/* <!-- Indicator --> */}
                 <div className="page_btn_box">
-                  <span><a href="#" className="play_btn on" title="Play & Pause Button"><img src="./img/main_prom_stop.png" alt="Play & Pause Button"/></a></span>
-                  <span><a href="#" className="page_btn" title="Page1 Button"><img src="./img/main_prom_on.png" alt="Page1 Button"/></a></span>
-                  <span><a href="#" className="page_btn" title="Page2 Button"><img src="./img/main_prom_off.png" alt="Page2 Button"/></a></span>
-                  <span><a href="#" className="page_btn" title="Page3 Button"><img src="./img/main_prom_off.png" alt="Page3 Button"/></a></span>
+                  <span><a href="#" className="play_btn on" title="Play & Pause Button"><img src={"."+process.env.PUBLIC_URL +"/img/main_prom_stop.png"} alt="Play & Pause Button"/></a></span>
+                  <span><a href="#" className="page_btn" title="Page1 Button"><img src={"."+process.env.PUBLIC_URL +"/img/main_prom_on.png"} alt="Page1 Button"/></a></span>
+                  <span><a href="#" className="page_btn" title="Page2 Button"><img src={"."+process.env.PUBLIC_URL +"/img/main_prom_off.png"} alt="Page2 Button"/></a></span>
+                  <span><a href="#" className="page_btn" title="Page3 Button"><img src={"."+process.env.PUBLIC_URL +"/img/main_prom_off.png"} alt="Page3 Button"/></a></span>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ const MainCpt = () => {
             <div className="left">
               <div className="gap">
                 <div className="content">
-                  <h2><img src="./img/rewards-logo.png" alt="리워드 로고"/></h2>
+                  <h2><img src={"."+process.env.PUBLIC_URL +"/img/rewards-logo.png"} alt="리워드 로고"/></h2>
                 </div>
               </div>
             </div>
@@ -136,12 +136,12 @@ const MainCpt = () => {
           <div className="container">
             <div className="img_box">
               <div className="wrap">
-                <h2><img src="./img/2021_chrsitmas_bean.png" alt="블론드 이미지"/></h2>
+                <h2><img src={"."+process.env.PUBLIC_URL +"/img/2021_chrsitmas_bean.png"} alt="블론드 이미지"/></h2>
               </div>
             </div>
             <div className="txt_box">
               <div className="wrap">
-                <h2><img src="./img/2021_chrsitmas_bean_txt.png" alt="블론드 텍스트"/></h2>
+                <h2><img src={"."+process.env.PUBLIC_URL +"/img/2021_chrsitmas_bean_txt.png"} alt="블론드 텍스트"/></h2>
                 <p><a href="#" title="자세히 보기">자세히 보기</a></p>
               </div>
             </div>
@@ -150,7 +150,7 @@ const MainCpt = () => {
         <section id="section5">
           <div className="container">
             <div className="title">
-              <h2><img src="./img/reserve_christmas_bean_title_211018.png" alt="Reserve The Merry"/></h2>
+              <h2><img src={"."+process.env.PUBLIC_URL +"/img/reserve_christmas_bean_title_211018.png"} alt="Reserve The Merry"/></h2>
               <p><a href="#" title="자세히 보기">자세히 보기</a></p>
             </div>
           </div>
@@ -158,23 +158,23 @@ const MainCpt = () => {
         <section id="section6">
           <div className="container">
             <div className="left">
-              <h2><img src="./img/fav_prod_txt01.png" alt="Pick Your..."/></h2>
-              <h3><img src="./img/fav_prod_txt02.png" alt="다양한 메뉴를..."/></h3>
+              <h2><img src={"."+process.env.PUBLIC_URL +"/img/fav_prod_txt01.png"} alt="Pick Your..."/></h2>
+              <h3><img src={"."+process.env.PUBLIC_URL +"/img/fav_prod_txt02.png"} alt="다양한 메뉴를..."/></h3>
               <p><a href="#" title="자세히 보기">자세히 보기</a></p>
             </div>
             <div className="right">
-              <img src="./img/2021_christmas2_fav.png" alt="Pick Your..."/>
+              <img src={"."+process.env.PUBLIC_URL +"/img/2021_christmas2_fav.png"} alt="Pick Your..."/>
             </div>
           </div>
         </section>
         <section id="section7">
           <div className="container">
             <div className="left">
-              <h2><img src="./img/reserve_text_pc.png" alt="Reserve Magazine"/></h2>
+              <h2><img src={"."+process.env.PUBLIC_URL +"/img/reserve_text_pc.png"} alt="Reserve Magazine"/></h2>
               <p><a href="#" title="자세히 보기">자세히 보기</a></p>
             </div>
             <div className="right">
-              <img src="./img/reserve_visual_pc.png" alt="Reserve Magazine Image"/>
+              <img src={"."+process.env.PUBLIC_URL +"/img/reserve_visual_pc.png"} alt="Reserve Magazine Image"/>
             </div>
           </div>
         </section>
@@ -182,11 +182,11 @@ const MainCpt = () => {
           <div className="container">
             <div className="wrap">
               <div className="left">
-                <span><img src="./img/store_exp_img01.png" alt="커피이미지"/></span>
+                <span><img src={"."+process.env.PUBLIC_URL +"/img/store_exp_img01.png"} alt="커피이미지"/></span>
               </div>
               <div className="right">
-                <h2><img src="./img/store_txt01.png" alt="store_txt"/></h2>
-                <h3><img src="./img/store_txt02.png" alt="store_txt"/></h3>
+                <h2><img src={"."+process.env.PUBLIC_URL +"/img/store_txt01.png"} alt="store_txt"/></h2>
+                <h3><img src={"."+process.env.PUBLIC_URL +"/img/store_txt02.png"} alt="store_txt"/></h3>
                 <p><a href="#" title="매장 찾기">매장 찾기</a></p>
               </div>
             </div>

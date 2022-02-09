@@ -7,7 +7,7 @@ const HeaderCpt = () => {
         <div className="container">
           <div id="logo_box">
             <h1>
-              <a href="#" title="logo"><img src="./img/logo.png" alt="logo" /></a>
+              <a href="#" title="logo"><img src={"."+process.env.PUBLIC_URL +"/img/logo.png"} alt="logo" /></a>
             </h1>
           </div>
           <div id="nav_box">
@@ -21,7 +21,7 @@ const HeaderCpt = () => {
                   <div className="search">
                     <input type="text" name="searchBox" id="searchBox" placeholder="통합 검색" />
                     <a href="#" title="통합 검색">
-                      <img src="./img/icon_magnifier_black.png" alt="통합 검색" />
+                      <img src={"."+process.env.PUBLIC_URL +"/img/icon_magnifier_black.png"} alt="통합 검색" />
                     </a>
                   </div>
                 </li>
@@ -172,7 +172,7 @@ const HeaderCpt = () => {
                     <div className="sub_bottom">
                       <div className="sub_container">
                         <dl>
-                          <dt><a href="#" title="나이트로 콜드 브루">나이트로 콜드 브루<img src="./img/icon_gnb_new.png" alt="새로운메뉴"/></a></dt>
+                          <dt><a href="#" title="나이트로 콜드 브루">나이트로 콜드 브루<img src={"."+process.env.PUBLIC_URL +"/img/icon_gnb_new.png"} alt="새로운메뉴"/></a></dt>
                           <dd>나이트로 커피 정통의 물결치듯 흘러내리는 캐스케이딩과 부드러운 크림을 경험하세요.</dd>
                         </dl>
                       </div>
@@ -408,9 +408,9 @@ const HeaderCpt = () => {
             </nav>
             <div id="mob_nav_box">
               <ul>
-                <li><a href="#" className="user_btn"><img src="./img/icon_user_m.png" alt="user icon"/></a></li>
-                <li><a href="#" className="map_btn"><img src="./img/icon_spot_m.png" alt="map icon"/></a></li>
-                <li><a href="#" className="berger_menu_btn"><img src="./img/btn_berger_m.png" alt="berger menu"/></a></li>
+                <li><a href="#" className="user_btn"><img src={"."+process.env.PUBLIC_URL +"/img/icon_user_m.png"} alt="user icon"/></a></li>
+                <li><a href="#" className="map_btn"><img src={"."+process.env.PUBLIC_URL +"/img/icon_spot_m.png"} alt="map icon"/></a></li>
+                <li><a href="#" className="berger_menu_btn"><img src={"."+process.env.PUBLIC_URL +"/img/btn_berger_m.png"} alt="berger menu"/></a></li>
               </ul>
             </div>
           </div>

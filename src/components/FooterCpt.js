@@ -63,12 +63,12 @@ const FooterCpt = () => {
             </div>
             <div className="middle">
               <div className="wrap">
-                <span><a href="#" title="여성가족부장관상"><img src="./img/footer_award23.jpg" alt="여성가족부장관상"/></a></span>
-                <span><a href="#" title="행정안전부장관 표창"><img src="./img/footer_award24.jpg" alt="행정안전부장관 표창"/></a></span>
-                <span><a href="#" title="농림축산식품부 장관상"><img src="./img/footer_award25.jpg" alt="농림축산식품부 장관상"/></a></span>
-                <span><a href="#" title="국회산업통상자원중소벤처위원회장상"><img src="./img/footer_award26.jpg" alt="국회산업통상자원중소벤처위원회장상"/></a></span>
-                <span><a href="#" title="태통령직속 일자리위원회 부위원장상"><img src="./img/footer_award27.jpg" alt="태통령직속 일자리위원회 부위원장상"/></a></span>
-                <span><a href="#" title="동반성장위원회 위원장상"><img src="./img/footer_award28.jpg" alt="동반성장위원회 위원장상"/></a></span>
+                <span><a href="#" title="여성가족부장관상"><img src={"."+process.env.PUBLIC_URL +"/img/footer_award23.jpg"} alt="여성가족부장관상"/></a></span>
+                <span><a href="#" title="행정안전부장관 표창"><img src={"."+process.env.PUBLIC_URL +"/img/footer_award24.jpg"} alt="행정안전부장관 표창"/></a></span>
+                <span><a href="#" title="농림축산식품부 장관상"><img src={"."+process.env.PUBLIC_URL +"/img/footer_award25.jpg"} alt="농림축산식품부 장관상"/></a></span>
+                <span><a href="#" title="국회산업통상자원중소벤처위원회장상"><img src={"."+process.env.PUBLIC_URL +"/img/footer_award26.jpg"} alt="국회산업통상자원중소벤처위원회장상"/></a></span>
+                <span><a href="#" title="태통령직속 일자리위원회 부위원장상"><img src={"."+process.env.PUBLIC_URL +"/img/footer_award27.jpg"} alt="태통령직속 일자리위원회 부위원장상"/></a></span>
+                <span><a href="#" title="동반성장위원회 위원장상"><img src={"."+process.env.PUBLIC_URL +"/img/footer_award28.jpg"} alt="동반성장위원회 위원장상"/></a></span>
               </div>
             </div>
             <div className="bottom">
